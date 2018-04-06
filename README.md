@@ -87,7 +87,7 @@ This function must receive three parameters, `error`, `req` and `res`.
 #### options example
 
 ```js
-app.use(lastMiddlware({
+app.use(lastMiddleware({
   format: 'json',
   handleError: (error, req, res) => {
     res.status(500);
