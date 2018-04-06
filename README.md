@@ -68,7 +68,7 @@ app.get('/', (req, res, next) => {
 });
 ```
 
-### API
+## API
 
 #### lastMiddleware(options)
 
