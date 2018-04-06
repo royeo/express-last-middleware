@@ -1,0 +1,36 @@
+{
+  "name": "express-last-middleware",
+  "description": "The last middleware of express to handle the final response.",
+  "version": "0.0.1",
+  "author": "royeo <github.com/royeo>",
+  "main": "index.js",
+  "engines": {
+    "node": ">=6.1.0"
+  },
+  "scripts": {
+    "test": "nyc ava test/*.test.js --fail-fast -v",
+    "coverage": "./node_modules/.bin/nyc report --reporter=text-lcov | ./node_modules/.bin/coveralls"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "coveralls": "^3.0.0",
+    "eslint": "^4.19.1",
+    "express": "^4.16.3",
+    "nyc": "^11.6.0",
+    "supertest": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:royeo/express-last-middleware.git"
+  },
+  "homepage": "https://github.com/royeo/express-last-middleware",
+  "keywords": [
+    "express",
+    "middleware",
+    "response"
+  ],
+  "license": "MIT"
+}
